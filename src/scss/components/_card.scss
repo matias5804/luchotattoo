@@ -1,0 +1,168 @@
+.tienda{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: center;
+    width: 375px;
+    margin:0 auto;
+}
+
+.card{
+    width: 160px;
+    height: 275px;
+    margin: 10px 5px 20px 5px;
+    background-color: rgba(231, 231, 231, 0.63);
+    display: flex;
+    box-sizing:border-box ;
+    flex-direction: column;            
+    text-align: start;
+}
+
+.card:hover{/*animacion de sombra sobre el articulo*/
+    box-shadow: 6px 6px 10px  rgba(240, 233, 233, 0.597); 
+    transition-duration: 0.4s; 
+}
+
+.imgCard{
+    box-sizing: border-box;
+    width: 100%;
+    object-fit: contain;
+}
+.div_imgCard{
+    height: 170px;
+    overflow: hidden;
+}
+
+.divProPreBot{
+    padding: 0px 10px 0px 10px;
+}
+
+.tituloCard{
+    font-size:medium;
+    color:$colorPri;
+    margin: 5px 0px 0px 0px;
+}
+
+.divImgCard:hover {
+    transform:scale(1.1);
+    transition: 0.5s ;
+}
+
+.divImgCard{
+    overflow: hidden;
+}
+
+.precioCard{
+    margin: 3px 0px 0px 0px;
+    font-size:medium;
+    color:$colorPri;
+}
+
+.btnComprarCard{
+    font-size: medium;
+    color: black;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    margin-top: 5px;
+    background-color:$colorPri;
+    color:#f7ecdfff;
+}
+
+.btnComprarCard:hover {
+    color: black;
+    background-color:$colorTer;
+}
+
+@media(min-width: 768px){
+    .tienda{
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        width: 640px;
+        margin:0 auto;
+    }
+
+    .card{
+        width: 180px;
+        height: 300px;
+        margin-bottom: 40px;
+    }
+
+    .div_imgCard{
+        height: 195px;
+    }
+    
+
+}
+
+@media(min-width: 1024px){
+    .tienda{
+        padding-top: 40px;
+        width: 770px;
+    }
+
+    .card{
+        width: 220px;
+        height: 335px;
+    }
+
+    .div_imgCard{
+        height: 220px;
+    }
+
+    .tituloCard{
+        font-size:large;
+    }
+
+    .precioCard{
+        font-size:large;
+    }
+
+    .btnComprarCard{
+        font-size: large;
+    }    
+}
+@media(min-width: 1440px){
+    .tienda{
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        padding-top: 80px;
+        width: 1200px;
+
+    }
+
+    .card{
+
+        width: 250px;
+        height:410px;
+
+    }
+
+    .div_imgCard{
+        height: 250px;
+    }
+
+    .tituloCard{
+        font-size:x-large;
+        margin-top: 15px;
+    }
+
+    .precioCard{
+        font-size:x-large;
+    }
+
+    .btnComprarCard{
+        font-size: x-large;
+        padding: 8px;
+        height: 45px;
+    }    
+}
+
+
+
+
+

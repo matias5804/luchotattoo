@@ -1,0 +1,128 @@
+.footer{
+    background-color: $colorTer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px ;
+    padding-bottom: 40px;
+    gap: 30px;
+    
+    
+}
+.divbrandsFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.divbrandDark{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+.imgFooter{
+    height: 60px;
+}
+
+.divEco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 0 15px 0;
+}
+
+.divEco p{
+    color: black;
+    text-align: start;
+    margin-left: 15px;
+}
+
+.footer p{
+    color: black;
+}
+
+.divUlFooter{
+    
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.divUlFooter ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+
+.Ffooter{
+    background-color: $colorTer;
+    border-top:1px solid black ;
+    padding-top: 30px;
+  
+}
+
+.iconInst{
+    width: 40px;
+}
+@media(min-width: 768px){
+    .footer{
+        padding-left: 75px;
+    }
+    .divUlFooter{
+        width: 615px;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+}
+
+@media(min-width: 1024px){
+    .footer{
+        padding-left: 120px;
+        padding-top: 60px;
+    }
+    .divbrandsFooter {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+        font-size: large;
+    }
+
+    .divEco{
+        margin-left: 160px;
+        margin-top: 0;        
+
+        width: 400px ;
+    }
+    .divUlFooter{
+
+        font-size: large;
+    }
+}
+
+@media(min-width: 1440px){
+    .divbrandsFooter{
+        margin-top: 30px;
+        font-size: x-large;
+    } 
+    .imgFooter{
+        height: 80px;
+    }
+    .brandEco{
+        width: 80px;
+       
+    }
+    .divUlFooter{
+        margin-left:50px ;
+        font-size:x-large;
+        margin-bottom: 50px;
+    }
+
+}
