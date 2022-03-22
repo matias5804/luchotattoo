@@ -7,7 +7,7 @@ const CardGoliatBeast = () => {
   return (
     
     <div className='card'>
-        <Link to={(``)}className='div_imgCard'>  
+        <Link to="./GoliatBeastDetail" className='div_imgCard'>  
             <div className='divImgCard'>
                 <img src={imageGoliatBeast} alt="carddBeast" className='imgCard'></img>
             </div>
@@ -16,7 +16,7 @@ const CardGoliatBeast = () => {
         <div className='divProPreBot'>
             <h3 className="tituloCard">Apoyabrazos <br/>GOLIAT BEAST</h3>
             <p className="precioCard"> <span>195</span>€</p>
-            <Link to="" className='div_imgCard'>  
+            <Link to="./GoliatBeastDetail" className='div_imgCard'>  
                 <button className="btnComprarCard">
                     - Ver Artículo -
                 </button>

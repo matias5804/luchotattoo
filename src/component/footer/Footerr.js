@@ -1,5 +1,5 @@
 import React from 'react'
-//import '../../scss/styles.scss'
+import '../../scss/styles.scss'
 import brandDark from '../../assets/img/icon/brandDark.png'
 import brandEco from '../../assets/img/icon/brandEco.png'
 import { Link } from 'react-router-dom'

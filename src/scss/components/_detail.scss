@@ -1,0 +1,161 @@
+.divDet{
+    display: flex;
+    flex-direction: column
+}
+
+.divImaDet{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.imgDet{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.divNamePriceDet{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    gap: 0.3rem;
+    color: white;
+    padding:20px 0 20px 0;
+}
+
+.btnAgregarDetail{
+    font-size: large;
+    color:#356d65ff;
+    width: 170px;
+    height: 35px;
+    border: none;
+    border-radius: 3px 3px 3px 3px ;
+    background-color:#f1cbb5ff;
+    margin-top: 0.7rem;
+    border-color: #356d65ff;
+    border: 0.5px solid ;
+}
+
+.btnAgregarDetail:hover{
+    background-color:#356d65ff;
+    color:#f7ecdfff;
+}
+
+.divPreBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.divDesDet{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+
+.divDesDet p{
+    font-size: medium;
+    text-align: start;
+ 
+
+}
+
+.divAddRest{
+    display: flex;
+    margin-top: 10px;
+}
+
+.btnCount{
+    width: 25px;
+}
+
+.numCount{
+    margin: 0 10px  ;
+}
+
+@media (min-width:768px) {
+    
+    .divDet{
+        width: 560px;
+        display: flex;
+        flex-direction: row;
+        margin: 20px 20px 0px 20px; 
+        align-items: flex-start;
+        margin: 0 auto;
+    }
+
+    .nameDetail{
+        text-align: start;
+    }
+
+    .divImaDet{
+        width: 400px;
+        height: auto; 
+    }
+    
+    .divNamePriceDet{
+        margin-top: 30px;
+        gap: 1.7rem;
+    }
+
+    .divPreBtn{
+        font-size: larger ;
+    }
+
+    .divDesDet{
+        padding: 2.5rem;
+        width: 632px;
+        margin: 0 auto;
+    }
+    
+    .textDesDet{
+        font-size:x-large;
+    }
+}
+
+
+@media (min-width:1024px) {
+
+    .divDet{
+        left: 50%;
+        right: 50%;
+        width: 800px;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 40px;
+    }
+
+    .divDesDet{
+        width: 800px;
+        height: 600px;
+    }
+    .divDesDet p{
+
+        font-size: x-large;
+    }
+    .divImaDet{
+        width: 420px;
+        height: auto; 
+        margin:0px ;
+  
+    }
+    .nameDetail{
+        font-size: 45px;
+        width: 295px;
+        height: 90px;
+        line-height: 55px;
+        padding-right:20px ;
+    }
+    .divPreBtn{
+        font-size: xx-large;
+    }
+}

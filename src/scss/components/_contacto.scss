@@ -1,0 +1,128 @@
+.divImgUbi img{
+    width: 100%;
+    height: auto;
+    margin:15px 0 20px 0;
+}
+
+.divInputContacto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.divInputContacto div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.divInputContacto div input{
+    padding: 10px;
+    width: 100%;
+}
+
+.SubmitContacto{
+    font-size: medium;
+    color: black;
+    width: 100%;
+    
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    margin-top: 5px;
+    background-color:$colorPri;
+    color:#f7ecdfff;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.SubmitContacto:hover {
+    color: black;
+    background-color:$colorTer;
+    font-weight: 700;
+}
+
+.inputTextContacto{
+    height: 220px;
+}
+.divInfoContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.divInfoContacto h3{
+    color: white;
+}
+
+.divInfoContacto div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.divUbicacionGoogle{
+    display: flex;
+    flex-direction: row !important;
+}
+
+.divUbicacionGoogle img{
+    width: 30px;
+}
+
+.divUbicacionGoogle p {
+    padding: 10px 0 10px 0 ;
+}
+
+.infoRedesContacto{
+    gap: 10px ;
+}
+
+@media(min-width: 768px){
+    .divInputContacto{
+        width: 500px;
+    }
+    
+    .divInfoContacto{
+        display: flex;
+        flex-direction: row;
+        width: 700px;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+    .infoRedesContacto{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .titleContacto{
+        padding: 30px;
+    }
+
+    .divDireHora{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .divDireHora h3{
+        margin: 0;
+    }
+
+}
+@media(min-width: 1440px){
+    .contacto{
+        display: flex;
+        padding-bottom: 60px;
+    }
+}

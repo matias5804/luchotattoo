@@ -41,7 +41,7 @@ a{
     flex-direction: column;
     height: 0; /*es para ocultar el menu*/
     overflow: hidden; /* es para el desbordamiento del menu*/
-    transition: height 0.4s ease;/*transicion lenta*/
+    transition: all 0.4s ease;/*transicion lenta*/
     z-index: 1;
 }
 

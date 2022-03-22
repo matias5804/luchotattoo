@@ -5,10 +5,11 @@ import '../../../scss/styles.scss'
 
 
 
+
 const cardBeast = () => {
   return (
     <div className='card'>
-        <Link to={(``)}className='div_imgCard'>  
+        <Link to='./BeastDetail' className='div_imgCard'>  
             <div className='divImgCard'>
                 <img src={imageBeast} alt="carddBeast" className='imgCard'></img>
             </div>
@@ -17,7 +18,7 @@ const cardBeast = () => {
         <div className='divProPreBot'>
             <h3 className="tituloCard">Apoyabrazos <br/>BEAST</h3>
             <p className="precioCard"> <span>175</span>€</p>
-            <Link to="" className='div_imgCard'>  
+            <Link to='./BeastDetail' className='div_imgCard'>  
                 <button className="btnComprarCard">
                     - Ver Artículo -
                 </button>

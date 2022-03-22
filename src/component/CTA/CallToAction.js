@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import imgCTA from '../../assets/img/pictures/cta.png'
 import '../../scss/styles.scss'
 const CallToAction = () => {
@@ -8,7 +9,7 @@ const CallToAction = () => {
         <div>
             <h1>EQUIPAMIENTO PARA ESTUDIOS DE TATTO</h1>
             <p>Apoyabrazos / Mesas de trabajo</p>
-            <button>VER CATALOGO</button>
+            <Link to="./pages/Catalogo"><button>VER CATALOGO</button></Link>
         </div>
     </div>
   )
