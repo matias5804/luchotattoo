@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/matias5804/luchotattoo/static/css/main.96913817.css",
+    "main.js": "/matias5804/luchotattoo/static/js/main.d13f68c3.js",
+    "static/media/cta.png": "/matias5804/luchotattoo/static/media/cta.f8127d1e9d497f5bb39e.png",
+    "static/media/beast.jpg": "/matias5804/luchotattoo/static/media/beast.df9fd985846af87b88fe.jpg",
+    "static/media/goliatBig.jpg": "/matias5804/luchotattoo/static/media/goliatBig.8b96b5d915c6e0fffb52.jpg",
+    "static/media/serpienteTurkesa.jpg": "/matias5804/luchotattoo/static/media/serpienteTurkesa.5de4f2450b375d9941e0.jpg",
+    "static/media/monster.jpg": "/matias5804/luchotattoo/static/media/monster.779666d67d17b48093f5.jpg",
+    "static/media/mesaAcoplesDos.jpg": "/matias5804/luchotattoo/static/media/mesaAcoplesDos.8ed2e68920f50b525772.jpg",
+    "static/media/ubicacion.jpg": "/matias5804/luchotattoo/static/media/ubicacion.20f2258146dd62c74494.jpg",
+    "static/media/standar.jpg": "/matias5804/luchotattoo/static/media/standar.f0c8e2a15126a7dd0662.jpg",
+    "static/media/goliatBeast.jpg": "/matias5804/luchotattoo/static/media/goliatBeast.0fa3cac8bd0c3f544809.jpg",
+    "static/media/ubicacionDos.png": "/matias5804/luchotattoo/static/media/ubicacionDos.5894af3434c94917d5ce.png",
+    "static/media/brandDark.png": "/matias5804/luchotattoo/static/media/brandDark.4450e5cea2510a1a390f.png",
+    "static/media/brandHLight.png": "/matias5804/luchotattoo/static/media/brandHLight.9aab431f7f365f70beea.png",
+    "index.html": "/matias5804/luchotattoo/index.html",
+    "main.96913817.css.map": "/matias5804/luchotattoo/static/css/main.96913817.css.map",
+    "main.d13f68c3.js.map": "/matias5804/luchotattoo/static/js/main.d13f68c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96913817.css",
+    "static/js/main.d13f68c3.js"
+  ]
+}
