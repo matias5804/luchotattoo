@@ -6,21 +6,16 @@ const MonsterDetail = () => {
   return (
     <>
       <div className='divDet'>
-
         <div className='divImaDet'>
           <img className='imgDet' src={imageMonster} alt="beast"  />
         </div>
       
         <div className='divNamePriceDet'>
-
-          <h1 className='nameDetail'>Apoyabrazos MONSTER </h1>
-          
+          <h1 className='nameDetail'>Apoyabrazos MONSTER </h1>         
           <div className='divPreBtn'>
             <h2>185<span> € </span></h2>
           </div>
-
         </div>    
-
       </div> 
       
       <div className='divDesDet'>
@@ -33,19 +28,16 @@ const MonsterDetail = () => {
           HABANO / TABACO / SNAKE / LILA / ROSA / FUCSIA / VERDE / AMARILLO <br/>
           (+10€)
         </p>  
-
         <p>
           <strong>Puedes elegir el color de la base entre:</strong><br/>
           Standar: NEGRO (sin costo extra) o <br/>
           ROSA / ROSA PALO / VERDE / AMARILLO / ROJO <br/>
           (+10€)
-          
          <br/>
          <br/>
          Costo de envio + 15€ (Península)
         </p>
       </div>
-      
     </> 
   )
 }

@@ -10,23 +10,23 @@
     align-items: flex-start;
     padding: 20px ;
     padding-bottom: 40px;
-    gap: 30px;
-    
-    
+    gap: 30px;       
 }
+
 .divbrandsFooter{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
 }
+
 .divbrandDark{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-
 }
+
 .imgFooter{
     height: 60px;
 }
@@ -48,20 +48,18 @@
     color: black;
 }
 
-.divUlFooter{
-    
+.divUlFooter{    
     gap: 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
 }
+
 .divUlFooter ul{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
-    
+    gap: 10px;    
 }
 
 .Ffooter{
@@ -69,23 +67,22 @@
     border-top:1px solid black ;
     padding-top: 20px;
     padding-bottom: 20px;
-  
 }
 
 .iconInst{
     width: 40px;
 }
+
 @media(min-width: 768px){
     .footer{
         padding-left: 75px;
     }
+
     .divUlFooter{
         width: 610px;
         flex-direction: row;
         justify-content: space-between;
-
     }
-
 }
 
 @media(min-width: 1024px){
@@ -94,11 +91,11 @@
         padding:30px 0 30px 0;
         margin: 0 auto;
     }
+
     .divUlFooter{
         width: 810px;
-
-
     }
+
     .divbrandsFooter {
         display: flex;
         flex-direction: row;
@@ -108,35 +105,31 @@
     }
 
     .divEco{
-
         margin-top: 0;        
-
         width: 560px ;
     }
-    .divUlFooter{
 
+    .divUlFooter{
         font-size: large;
     }
 }
 
 @media(min-width: 1440px){
-
-
     .divbrandsFooter{
         margin-top: 30px;
         font-size: x-large;
     } 
+
     .imgFooter{
         height: 80px;
     }
+
     .brandEco{
-        width: 80px;
-       
+        width: 80px;   
     }
-    .divUlFooter{
-       
+
+    .divUlFooter{       
         font-size:x-large;
         margin-bottom: 50px;
     }
-
 }

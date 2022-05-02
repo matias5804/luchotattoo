@@ -6,21 +6,16 @@ const GoliatBigDetail = () => {
   return (
     <>
       <div className='divDet'>
-
         <div className='divImaDet'>
           <img className='imgDet' src={imageGoliatBig} alt="beast"  />
         </div>
       
         <div className='divNamePriceDet'>
-
           <h1 className='nameDetail'>Apoyabrazos<br/> GOLIAT BIG </h1>
-          
           <div className='divPreBtn'>
             <h2>185<span> € </span></h2>
           </div>
-
         </div>    
-
       </div> 
       
       <div className='divDesDet'>
@@ -45,7 +40,6 @@ const GoliatBigDetail = () => {
          Costo de envio + 15€ (Península)
         </p>
       </div>
-      
     </> 
   )
 }

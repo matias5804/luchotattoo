@@ -4,23 +4,18 @@ import '../../../scss/styles.scss'
 
 const GoliatBeastDetail = () => {
   return (
-<>
+    <>
       <div className='divDet'>
-
         <div className='divImaDet'>
           <img className='imgDet' src={imageGoliatBeast} alt="beast"  />
         </div>
       
         <div className='divNamePriceDet'>
-
           <h1 className='nameDetail'>Apoyabrazos GOLIAT BEAST </h1>
-          
           <div className='divPreBtn'>
             <h2>195<span> € </span></h2>
           </div>
-
         </div>    
-
       </div> 
       
       <div className='divDesDet'>
@@ -44,8 +39,7 @@ const GoliatBeastDetail = () => {
          <br/>
          Costo de envio + 15€ (Península)
         </p>
-      </div>
-      
+      </div>      
     </> 
   )
 }

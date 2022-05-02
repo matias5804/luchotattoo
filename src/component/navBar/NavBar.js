@@ -4,17 +4,13 @@ import logoVertical from '../../assets/img/icon/brandLight.png'
 import logoHorizontal from '../../assets/img/icon/brandHLight.png'
 import iconMenuOpen from '../../assets/img/icon/iconMenuOpen.png'
 import iconMenuClose from '../../assets/img/icon/iconMenuClose.png'
-
 import { Link } from 'react-router-dom'
-
 
 const NavBar = () => {
   return (
     <>
         <header id="header">
             <nav>
-
-                
                 <div className="nav__divBrand">
                     <Link to="index.html" className="brandLink">
                         <img className="brand" src={logoVertical} alt="Brund"/>

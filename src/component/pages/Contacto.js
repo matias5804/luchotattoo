@@ -13,14 +13,12 @@ const Contacto = () => {
       </div>
 
       <div>
-
         <div className='divImgUbi'>
           <img src={ImgUbicacion} alt='ubicacion' />
         </div>
 
         <div className='contacto'>
           <div className='divInputContacto'>
-
             <div>
               <p>Nombre</p>
               <input name='name' type='text' className='' placeholder='Escriba su nombre' />
@@ -37,7 +35,6 @@ const Contacto = () => {
             </div>
 
             <input type='submit' className='SubmitContacto' value='ENVIAR MENSAJE' id=''/>      
-
           </div>
 
           <div className='divInfoContacto'>
@@ -55,9 +52,7 @@ const Contacto = () => {
                 <h3>Horarios de Oficina</h3><br/>
                 <p>Dom: Cerrado</p>
                 <p>Lun a Vie: 10AM - 5:30 PM </p>
-              </div><br></br>
-             
-              
+              </div><br></br>              
             </div><br></br>
 
             <div className='infoRedesContacto'>
@@ -77,11 +72,9 @@ const Contacto = () => {
                 <p>+34 693 23 25 46 </p>
               </div><br></br>
             </div>
-
           </div>
         </div>
       </div>
-     
     </>
   )
 }

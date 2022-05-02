@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom'
 import imageBeast from '../../../assets/img/products/beast.jpg'
 import '../../../scss/styles.scss'
 
-
-
-
 const cardBeast = () => {
   return (
     <div className='card'>

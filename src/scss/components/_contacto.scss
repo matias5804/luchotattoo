@@ -50,6 +50,7 @@
 .inputTextContacto{
     height: 220px;
 }
+
 .divInfoContacto{
     display: flex;
     flex-direction: column;
@@ -66,8 +67,7 @@
 .divInfoContacto div {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    
+    align-items: flex-start;    
 }
 
 .divUbicacionGoogle{
@@ -99,10 +99,10 @@
         margin: 0 auto;
         justify-content: space-around;
     }
+
     .infoRedesContacto{
         display: flex;
         flex-direction: column;
-
     }
 
     .titleContacto{
@@ -118,8 +118,8 @@
     .divDireHora h3{
         margin: 0;
     }
-
 }
+
 @media(min-width: 1440px){
     .contacto{
         display: flex;

@@ -11,7 +11,6 @@ const Inicio = () => {
         <div className='CTA'><CallToAction/></div>
         <NuestrosPro/>
         <Productos/>
-        
       </>
 
   )

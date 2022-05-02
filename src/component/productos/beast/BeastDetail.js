@@ -8,21 +8,17 @@ const BeastDetail = () => {
   return (
     <>
       <div className='divDet'>
-
         <div className='divImaDet'>
           <img className='imgDet' src={imageBeast} alt="beast"  />
         </div>
-      
-        <div className='divNamePriceDet'>
 
+        <div className='divNamePriceDet'>
           <h1 className='nameDetail'>Apoyabrazos BEAST </h1>
           
           <div className='divPreBtn'>
             <h2>175<span> € </span></h2>
           </div>
-
         </div>    
-
       </div> 
       
       <div className='divDesDet'>
@@ -41,13 +37,11 @@ const BeastDetail = () => {
           Standar: NEGRO (sin costo extra) o <br/>
           ROSA / ROSA PALO / VERDE / AMARILLO / ROJO <br/>
           (+10€)
-          
          <br/>
          <br/>
          Costo de envio + 15€ (Península)
         </p>
       </div>
-      
     </> 
   )
 }

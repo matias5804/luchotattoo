@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import imgCTA from '../../assets/img/pictures/cta.png'
+//import imgCTA from '../../assets/img/pictures/cta.png'
 import '../../scss/styles.scss'
+
 const CallToAction = () => {
   return (
     <div className='divCTA'>

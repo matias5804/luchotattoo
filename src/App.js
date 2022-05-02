@@ -15,33 +15,28 @@ import MonsterDetail from './component/productos/monster/MonsterDetail.js'
 import StandarDetail from './component/productos/standar/StandarDetail.js'
 import WhatsApp from './component/whatsapp/WhatsApp.js'
 
-
-
-
 const App = () => {
   return (
     <BrowserRouter>
-        <NavBar/>
-        <Routes>
-          <Route path='/' element={<Inicio/>}/>
-          <Route path='/pages/Catalogo' element={<Catalogo/>}/>
-          <Route path='/pages/Clientes' element={<Clientes/>}/>
-          <Route path='/pages/Contacto' element={<Contacto/>}/>
-          <Route path='/BeastDetail' element={<BeastDetail/>}/>
-          <Route path='/BigDetail' element={<BigDetail/>}/>
-          <Route path='/GoliatBeastDetail' element={<GoliatBeastDetail/>}/>
-          <Route path='/MesaTrabajoDetail' element={<MesaTrabajoDetail/>}/>
-          <Route path='/GoliatBigDetail' element={<GoliatBigDetail/>}/>
-          <Route path='/MonsterDetail' element={<MonsterDetail/>}/>
-          <Route path='/StandarDetail' element={<StandarDetail/>}/>
-          <Route path="*" element={<Navigate to="/" />} />
+      <NavBar/>
+      
+      <Routes>
+        <Route path='/' element={<Inicio/>}/>
+        <Route path='/pages/Catalogo' element={<Catalogo/>}/>
+        <Route path='/pages/Clientes' element={<Clientes/>}/>
+        <Route path='/pages/Contacto' element={<Contacto/>}/>
+        <Route path='/BeastDetail' element={<BeastDetail/>}/>
+        <Route path='/BigDetail' element={<BigDetail/>}/>
+        <Route path='/GoliatBeastDetail' element={<GoliatBeastDetail/>}/>
+        <Route path='/MesaTrabajoDetail' element={<MesaTrabajoDetail/>}/>
+        <Route path='/GoliatBigDetail' element={<GoliatBigDetail/>}/>
+        <Route path='/MonsterDetail' element={<MonsterDetail/>}/>
+        <Route path='/StandarDetail' element={<StandarDetail/>}/>
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
 
-        </Routes>
-
-        <WhatsApp/>
-        <Footer/>
-
-        
+      <WhatsApp/>
+      <Footer/>
     </BrowserRouter>
   )
 }
